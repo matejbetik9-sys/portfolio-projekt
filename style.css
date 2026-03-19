@@ -1,6 +1,56 @@
 body {
-  background: black;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
   color: white;
+}
+
+/* HERO */
+.hero {
   text-align: center;
-  font-family: Arial;
+  padding: 100px 20px;
+  background: linear-gradient(black, #1a1a1a);
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.hero p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: crimson;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* SECTIONS */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.dark {
+  background: #1a1a1a;
+}
+
+/* SERVICES */
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #222;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
 }
